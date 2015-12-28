@@ -1,0 +1,108 @@
+*{margin: 0; padding: 0;}
+
+body{
+font-size: 62.5%;
+font-family: helvetica, geogia, arial, sans-serif;
+line-height: 2em;
+background: url("../img/login_bg.png") repeat-x scroll left top #F1F1F1;
+}
+
+ol,ul{
+list-style: none;
+}
+p{
+font-size: 1.2em;
+}
+a{
+text-decoration: none;
+}
+a img{
+border: none;
+}
+img{
+    vertical-align: top;
+}
+fieldset{
+    border: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: georgia,serif;
+}
+h2{
+    font-size: 2.2em;
+    margin: 0;
+}
+h1{
+    font-size: 2em;
+}
+.clear{
+    clear:  both;
+}
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+.aligncenter{
+    text-align: center;
+}
+#wrapper{
+    width: 1024px;
+    margin: 0px auto;
+	background: #c0c0c0;
+}
+#mainContent{
+	position: relative;
+	background: #f1f1f1 url("../img/login_bg.png") repeat-x left top;
+}
+#mainContent div#page{
+	position: absolute;
+	top: 180px;
+	left: 260px;
+	width: 500px;
+	height: 300px;
+	background: url("../img/form_login.png") no-repeat;
+}
+/*end MAIN CONTENT ****/
+
+.middle {
+    margin-left: 162px;
+    margin-top: 65px;
+}
+
+.submit {
+    background: url("../img/icons/butleft_login.gif") no-repeat scroll left top transparent;
+    float: left;
+    height: 30px;
+    margin-left: 95px;
+    margin-top: 7px;
+    outline: medium none !important;
+    padding: 0 0 0 32px;
+}
+.button_ok, .button_submit {
+  margin: 0px;
+  padding: 0px !important;
+  border: 0px;
+  background: transparent url('../img/icons/butright_login.gif') no-repeat scroll top right;
+  color: #1b486a;
+  display: block;
+  float: left;
+  height: 30px;
+  margin-right: 6px;
+  margin-top:10px;
+  padding-right: 15px !important;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none !important;
+  cursor: pointer;
+  font-weight: bold;
+}
+.button_submit {
+	margin: 0px;
+}
+element.style {
+    background-color: transparent;
+}
+

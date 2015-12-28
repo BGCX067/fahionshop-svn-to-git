@@ -1,0 +1,99 @@
+/*MiniCart*/
+#miniCartContent {min-height:510px; _height:510px;}
+
+#miniCart h3 {text-align:center; margin:13px 0 15px;}
+#miniCart fieldset, #miniCart li {margin:0;}
+#miniCart .wrap {position:relative; padding:6px 0 0 8px;}
+#miniCart .head {padding:2px 0 2px 10px; margin-left:2px; height:18px; background:#eee; width:278px;color:blue;}
+#miniCart .head .amount {top:2px; right:12px;color:blue;}
+#miniCart .limit {height:194px; overflow:auto;}
+#miniCart .maxlimit {max-height:200px; margin-bottom:20px; overflow:auto;}/*UCP support*/
+#miniCart .amount {position:absolute; top:0; right:25px; width:auto; color:#333;}
+#miniCart .desc {float:left; width:80%;}
+#miniCart .ebay .amount {right:0}
+#miniCart .grandTotal {right:0px;}
+#miniCart .ineligible-amount {position:absolute; top:0; right:20px; width:auto;color:#757575!}
+#miniCart ol.items {width:278px; margin-left:4px; overflow-x:hidden;}
+#miniCart ol, #miniCart ul {float:left; margin:0; list-style-type:none;}
+#miniCart .items li ul {margin:0; padding:5px 0;}
+#miniCart .items li ul.sellername, #miniCart .items li.itmdet ul {border-top:1px solid #ccc; margin:0;}
+#miniCart .items li.seller1 ul.sellername, #miniCart .items li.itmdet ul.seller1 {border-top:none;}
+#miniCart .seller1 ul, #miniCart .items li.itmdet ul.item1 {margin:-5px 0 0; border:0 none;}
+#miniCart .items li {float:left; position:relative; padding:0; width:278px;}
+#miniCart .ebay .item1 li {margin-bottom:7px}
+#miniCart .ebay.totals {padding-top:10px; padding-bottom:20px; margin-top:0px}
+#miniCart .ebay.wrap {}
+#miniCart ul.sellername a.expSell {padding:0 0 0 15px; text-decoration:none; border-bottom: none; background: url(icon_collapse_9wx9h.gif) no-repeat 0 3px;}
+#miniCart ul.sellername a.collSell  {padding:0 0 0 15px; text-decoration:none; border-bottom: none; background: url(icon_expand_9wx9h.gif) no-repeat 0 3px;}
+#miniCart li.selleritm {padding-left:15px;}
+#miniCart input.small {font-size: inherit; margin-left: 5px;}
+#miniCart input#amount {position:absolute;top:0;right:15px;}
+
+#miniCart .totals {margin-left:4px; padding-left: 10px; padding-bottom:0.5em; width:278px; float:left; border-top:1px solid #ccc;}
+#miniCart {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    font-size: 1.2em;
+    margin-left: 91px;
+    width: 311px;
+}
+#miniCart .buttoncheckout {
+    float: left;
+    margin-left: 40px;
+    margin-top: 62px;
+    padding-bottom: 0.5em;
+    padding-left: 35px;
+    width: 278px;
+}
+
+#miniCart div.totals-hss, #miniCart div.totals-hss li{border:none; font-weight:normal;}
+#miniCart .qty .group {margin:0.1em 0;}
+#miniCart .qty label {display:inline;}
+#miniCart .qty input {text-align:right;}
+#miniCart .qty div.action {float:left; margin:4.75px 0px 0px;}
+#miniCart li.discount {padding:0 0 6px;}
+#miniCart .msg {width:315px; padding:15px 10px; margin:0;}
+#miniCart #step {text-align:right;}
+#miniCart label.highlight {width:295px; display:inline;}
+#miniCart #shippingWidget {margin:4px 0; float:left;}
+#miniCart #shippingWidget .cancelWidget {margin:1.2em 0 0 1em}
+#miniCart .resultRow {font-size:0.9em;}/*cart vs minicart discrepancy*/
+#miniCart .emptyCart {border-top:1px solid #ccc;margin-top:5px;}
+#miniCart .ecText {text-align:center;margin:20px 30px;}
+
+#miniCart li.secondary.qty p.group.error {width:100%; position:relative; padding-top:20px;}
+#miniCart li.secondary.qty.qtyUnavailable p.group.error {padding-top:0; width:auto;}
+#miniCart li.secondary.qty p.group.error label {padding:0;}
+#miniCart li.secondary.qty p.group.error span.help {margin-left:0; position:absolute; top:0; left:0;}
+#miniCart li.secondary.qty p.group.error span.field {padding:0 10px;}
+#miniCart li.secondary.qty p.group .align span {display:inline;}
+#miniCart li.error span.help {padding-left:20px;}
+#miniCart .noamt {margin-left:16px;}
+
+/* #miniCart.mcBilling, #miniCart.mcReview {height:1187px;} */
+#miniCart .installmentDiscountLabel{display:block;width:60%;}
+		
+/* MiniCart - Done Page */
+#miniDone {float:left; position:relative;width:295px;padding:34px 0 0 10px;}
+#miniDone .reviewInfo {padding:8px 0 11px;background:0 none;}
+#miniDone .reviewInfo .inset {margin:0;}
+#miniDone .address strong {display:block;}
+div.paymentDone div.orderDetails {text-align:center;width:295px;margin-top:20px;}
+div.paymentDone div.total {text-align:center;width:295px;margin-top:10px;font-size:20px;padding-bottom:15px;border-bottom:1px solid #dedede;}
+div.paymentDone div.doneDetails {margin:20px 0;}
+div.paymentdone div.centerLink {text-align:center;}
+div.paymentDone div.instPlan{font-size:0.57em;}
+#miniCart.accessAid{
+color:#084482;
+}
+#content_paypal {
+    -moz-border-radius: 7px 7px 7px 7px;
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #CCCCCC;
+    float: left;
+    margin-bottom: 25px;
+    margin-left: 45px;
+    margin-top: 25px;
+    padding: 10px;
+    width: 480px;
+}

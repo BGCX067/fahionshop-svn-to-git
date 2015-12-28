@@ -1,0 +1,147 @@
+.hide {
+display:none;
+}
+
+.product_preview_img{
+    height:200px;
+    width:200px;
+}
+#breadcrumbs {
+font-size: 1.1em;
+margin: 0 0px 2em -0.5em;
+}
+
+#breadcrumbs a, #breadcrumbs strong {
+margin:0 0.5em;
+font-weight:normal;
+}
+/*** Product ***/
+ul.cols li {
+display:block;
+float:left;
+height:225px;
+margin:5px;
+text-align:center;
+width:31%;
+border: 1px solid #ebebeb;
+background: white;
+padding: 5px 0px;
+font-size:1.2em;
+}
+
+ul.cols li a {
+display:block;
+text-align:center;
+}
+
+a.p_name{
+text-align:left;
+padding: 0 10px;
+color:black;
+}
+
+span.p_price {
+margin: 15px 0;
+color:red;
+font-weight:bold;
+}
+ul.cols li a.p_img {
+height:100px;
+line-height:100px;
+margin-bottom:10px;
+}
+
+ul.cols li a img {
+    height: 171px;
+    vertical-align: middle;
+    width: 90%;
+}
+
+#LineItemAddForm fieldset{
+    border-width: 0px;
+}
+/* prices */
+
+del {
+color: #999;
+text-decoration: line-through;
+}
+
+ins {
+color: #c30;
+font-weight: bold;
+text-decoration: none;
+}
+/*--- Form ****/
+
+legend{
+font-weight:bold;
+font-size:1.3em;
+}
+
+div.input{
+width:22px;
+margin-top:1px;
+margin-bottom:10px;
+float:left;
+}
+
+div.input textarea {
+float: left;
+margin-bottom: -22px;
+margin-top: 2px;
+width: 300px;
+height:75px;
+
+}
+ #OrderComments{
+ float: left;
+ height: 100px;
+ margin-bottom: -38px;
+ margin-top: 2px;
+ width: 555px;
+
+}
+div.format_input{
+width:220px;
+margin-top:1px;
+margin-bottom:10px;
+float:left;
+}
+/*
+div#center fieldset {
+float:left;
+width:31%;
+margin:1%;
+padding:0;
+} */
+
+div.input label{
+width:8.5em;
+float:left;
+text-align:right;
+padding-right:0.5em;
+font-size:1.2em;
+}
+div.input label.error{
+    float:right;
+    width:16em;
+    color:red;
+    text-align:left;    
+}
+span.error {
+    color:red;
+    display:block;
+}
+
+#info_product {
+    height: 24%;
+    margin: 67px 0 2px;
+    padding: 5px 2px 0;
+    text-align: center !important;
+    width: 97%;
+}
+#code_product {
+    margin: 5px;
+    
+}

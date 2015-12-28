@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Fashion Shop - Errors</title>
+		<link rel="stylesheet" type="text/css" href="/fashionshop/css/style.css" /><link rel="stylesheet" type="text/css" href="/fashionshop/css/common.css" />				<script src="/fashionshop/js/1_jquery.js" type="text/javascript"></script>
+				<script src="/fashionshop/js/2_layout.js" type="text/javascript"></script>
+				<script src="/fashionshop/js/3_tooltip.min.js" type="text/javascript"></script>
+				<script src="/fashionshop/js/shop_1_base.js" type="text/javascript"></script>
+
+	
+</head>
+<body>
+
+	<div id="wrapper">
+				<div id="header">
+					<div id="logo"><a href="/"><img alt="main logo" src="/fashionshop/img/img/logo.gif"></a></div>
+						<div id="header_right">
+							<div title="Bấm vào �?ây �?�? xem gi�? hàng của bạn" onclick="show_cart();" id="cart">
+							<span id="item">Hàng: 0</span>
+							<span id="total">T�?ng : 0 VND</span>
+							</div>
+						</div>
+						<div id="flag">
+							<a title="Tiếng Vi�?t" class="flag-vn" href="?lang=vie"></a>
+							<a title="English" class="flag-eng" href="?lang=eng"></a>
+						</div>
+		        </div>
+				<div id="content">
+					<div id="main_menu">
+											<div class="header_11">
+									<div class="header_12">
+										<div class="header_13">
+											<ul class="main_nav">
+												<li class="quai"><a href="/giaythethao/">Trang Chủ</a></li>
+												<li class="quai"><a href="/giaythethao/products/recent">Hàng M�?i</a></li>
+												<li class="quai"><a href="/giaythethao/products/saleoff">Khuyên Mãi</a></li>
+												<li class="quai"><a href="/giaythethao/contact-information-con-2.lsl">Liên H�?</a></li>
+												<li class="quai"><a href="/giaythethao/about-us-con-3.lsl">Gi�?i Thi�?u</a></li> 
+											</ul>
+										</div>
+									</div>
+								</div>		</div>
+					<div id="searchbox"><form method="get" action="/giaythethao/search/">
+										<input type="text" id="keywords" name="keywords">
+										<input type="submit" value="Tìm"></form>
+					</div>
+					<div id="center" style="min-height: 597px;">
+							<div id="left">
+								<div class="box categories">
+								<h2>Th�?i Trang Nữ</h2>
+								<ul id="categoriesmenu">
+									<li><a href="/giaythethao/categories/show/1">Aó thun nữ</a></li>
+									<li><a href="/giaythethao/categories/show/6">Aó sơ mi</a></li>
+									<li><a href="/giaythethao/categories/show/5">�?o khoác</a></li>
+									<li><a href="/giaythethao/categories/show/5">Váy/�?ầm</a></li>
+									<li><a href="/giaythethao/categories/show/5">Quần short</a></li>
+								</ul>
+								</div>
+								<div class="box categories">
+								<h2>Th�?i Trang Nam</h2>
+								<ul id="brands">
+									<li><a href="/giaythethao/adidas-b-1.lsl">Aó thun nam</a></li>
+									<li><a href="/giaythethao/nike-b-2.lsl">Aó sơ mi</a></li>
+									<li><a href="/giaythethao/reebok-b-3.lsl">Aó khoác</a></li>
+									<li><a href="/giaythethao/dong-luc-b-4.lsl">Jean/Kaki</a></li>
+									
+								</ul>
+							    </div>
+								<div class="box categories">
+								<h2>Phụ Ki�?n Th�?i Trang</h2>
+								<ul id="brands">
+									<li><a href="/giaythethao/adidas-b-1.lsl">Dây n�?t</a></li>
+									<li><a href="/giaythethao/nike-b-2.lsl">Mắt kính</a></li>
+									<li><a href="/giaythethao/reebok-b-3.lsl">Túi xách/Ví</a></li>
+									
+								</ul>
+							    </div>
+								<div class="bo">
+								<h2>Sản phẩm bán chạy</h2>
+								<ol >
+									<li class ="pro">Quần jeans</li>
+									<li class ="pro">Mắt kính</li>
+									<li class ="pro">Váy hóa</li>
+									
+								</ol>
+							    </div>
+								
+							</div>
+							<div id="right">
+								<div class="bo">
+									<h2>Gi�? Hàng</h2>
+									<ul id="shop">
+									<div id = "cart" title="Bấm vào �?ây �?�? xem gi�? hàng của bạn" onclick="show_cart();" >
+										<li><a href="/"><img alt="main logo" src="/fashionshop/img/img/shopping_cart.gif"></a></li>
+									</div>
+										<li>Hàng : 0 </li>
+										<li>T�?ng : 0 VND</li>
+										<li class ="view"><a href="/giaythethao/categories/show/5">Xem gi�? |</a> <a href="/giaythethao/categories/show/5">Thanh toán</a></li>
+										
+									 </ul>
+									
+										
+								     </div>
+								
+								<div class="bo">
+									<h2>H�? Trợ</h2>
+									<ul class ="support">
+									<li ><a  href="/"><img alt="main logo" src="/fashionshop/img/img/yahooIcon.jpg"></a></li>
+									<li class ="supportli"><a href="ymsgr:sendIM?nhathanhthanh" target="_blank"><img border="0" title="YM:nhathanhthanh" src="http://opi.yahoo.com/online?u=nhathanhthanh&amp;m=g&amp;t=2&amp;l=us" alt="YM:nhathanhthanh"></a></li>
+									<li class ="supportli"><a href="ymsgr:sendIM?bluesky.tk88" target="_blank"><img border="0" title="YM:bluesky.tk88" src="http://opi.yahoo.com/online?u=bluesky.tk88&amp;m=g&amp;t=2&amp;l=us" alt="YM:bluesky.tk88"></a></li>
+									<li class="hotline" ><img alt="main logo" src="/fashionshop/img/img/mobile.gif"> Hot line</li>
+									
+									<li class ="supportli"> Ms.Thắm : 01266.69.49.44</li>
+									<li class ="supportli"> Ms.Nhân : 01205.12.11.33</li>
+									</ul>
+								</div>
+								<div class="bo">
+									<h2>Chia Sẻ Trang Này</h2>
+									<ul>
+									
+									<div class="share" style="text-align:center;" stylr="">
+									<!--<a class="addthis_button_facebook at300b" href="http://www.addthis.com/bookmark.php?v=250&amp;winname=addthis&amp;pub=quanaoredep&amp;source=tbx-250&amp;lng=vi&amp;s=facebook&amp;url=http%3A%2F%2Fquanaoredep.com%2Fdo-bay-jumpsuit&amp;title=%C4%90%E1%BB%93%20Bay%20-%20Jumpsuit&amp;ate=AT-quanaoredep/-/-/4d9379a4ef5ebe16/1&amp;uid=4d9379a446968e89&amp;CXNID=2000001.5215456080540439074NXC&amp;pre=http%3A%2F%2Fquanaoredep.com%2Fkhan-choang-co-k37&amp;tt=0" target="_blank" title="Send to Facebook"><span class="at300bs at15nc at15t_facebook"></span></a>-->
+									
+									<a onclick="return ! window.open(this.href);" href="http://www.facebook.com/fashionshop" rel="nofollow"><img width="75" height="22" alt="Facebook" src="/fashionshop/img/img/logo_facebook.jpg"></a>
+									<a onclick="return ! window.open(this.href);" href="http://twitter.com/fashionshop" rel="nofollow"><img width="75" height="20" alt="Twitter" src="/fashionshop/img/img/logo_twitter.jpg"></a><br>
+									</div>
+									
+									</ul>
+								</div>
+								<div class="bo">
+									<h2> Khách Truy Cập</h2>
+									<ul>
+									
+									<li class ="cus"> Khách : 0 </li>
+									
+									</ul>
+								</div>
+										
+					
+							</div>
+								
+								
+							
+			<div id="centerwrap">
+								 
+						<h2>Missing Controller</h2>
+<p class="error">
+	<strong>Error: </strong>
+	<em>ImgController</em> could not be found.</p>
+<p class="error">
+	<strong>Error: </strong>
+	Create the class <em>ImgController</em> below in file: app\controllers\img_controller.php</p>
+<pre>
+&lt;?php
+class ImgController extends AppController {
+
+	var $name = 'Img';
+}
+?&gt;
+</pre>
+<p class="notice">
+	<strong>Notice: </strong>
+	If you want to customize this error message, create app\views\errors\missing_controller.ctp</p>		
+
+					
+			</div>
+											   
+		</div>
+	</div>
+				<div id="footer">
+					<div id="copy">&copy; 2011 by <a href="http://giaythethao.com/">T&N Fashion Shop</a>.</div>
+					
+					<div id="link"><a href="/"> Site map</a> </div>
+					
+					<div id="parner"><a href="www.valentino.com"><img alt="" src="/fashionshop/img/img/valentino_1.JPG"></a><a href="http://us.levi.com"><img alt="" src="/fashionshop/img/img/levi's.jpg"></a><a href="http://www.hermes.com"><img alt="" src="/fashionshop/img/img/Hermes.JPG"></a></div>    
+				</div> 
+				
+	</div>
+<script type="text/javascript">		  
+function show_cart(){
+ $('.shopcart').css({ top: 150 ,
+ left: 350
+}).fadeIn();
+$('#content').bind("click",close_order);
+/*
+$('.shopcart').css('left', 1000 / 2 - ($('.showcart table').width() / 2) ); 
+$('.shopcart').css('position: absolute; top: 40px; left: 214px;');
+$('.shopcart').show('slow');  */
+}
+ function close_order()
+{
+ jQuery('.shopcart').fadeOut();
+ $('#content').unbind("click",close_order)
+ 
+} 
+function getPageScroll() {
+     var xScroll, yScroll;
+     if (self.pageYOffset) {
+         yScroll = self.pageYOffset;
+         xScroll = self.pageXOffset;
+     } else if (document.documentElement &amp;&amp; document.documentElement.scrollTop) { // Explorer 6 Strict
+         yScroll = document.documentElement.scrollTop;
+         xScroll = document.documentElement.scrollLeft;
+     } else if (document.body) {// all other Explorers
+         yScroll = document.body.scrollTop;
+         xScroll = document.body.scrollLeft;
+     }
+     return new Array(xScroll,yScroll);
+} 
+</script></body>
+
+
+
+
+
+</html>
+<table class="cake-sql-log"><tbody><caption>Debug timer info</caption><tr><th>Message</th><th>Start Time (ms)</th><th>End Time (ms)</th><th>Duration (ms)</th></tr><tr><td>Core Processing (Derived)</td><td>0</td><td>2019</td><td>2019</td></tr><tr><td>Component initialization and startup</td><td>2019</td><td>2938</td><td>0</td></tr><tr><td>Render Controller Action</td><td>2824</td><td>2938</td><td>0</td></tr></tbody></table><table class="cake-sql-log"><tbody><caption>Debug timer info</caption><tr><th>Message</th><th>Start Time (ms)</th><th>End Time (ms)</th><th>Duration (ms)</th></tr><tr><td>Core Processing (Derived)</td><td>0</td><td>-1301675022594</td><td>-1301675022594</td></tr><tr><td>Component initialization and startup</td><td>2019</td><td>2939</td><td>0</td></tr><tr><td>Render Controller Action</td><td>2824</td><td>2939</td><td>0</td></tr></tbody></table>
